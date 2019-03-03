@@ -1,0 +1,373 @@
+/* Début de modification de la navbar */
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+  background-color: #262626;
+}
+
+.navbar-dark .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: grey;
+  outline: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-radius: 5px;
+  background-color: #262626;
+  color: grey;
+  outline: 0;
+}
+
+.navbar-dark .navbar-brand {
+  color: white;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: grey;
+  outline: 0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  margin-left: 1em;
+}
+
+@media screen and (max-width: 990px) {
+  .navbar-dark .navbar-nav .nav-link {
+    margin: 2px;
+    display: inline-block;
+  }
+}
+
+/* Fin de modification de la navbar */
+
+/* Début de la page présentation */
+#presentation {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url(../img/lanz.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+div .text p {
+  text-align: justify;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+div .text {
+  margin-bottom: 10.49em;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+/* Début de la page formations */
+
+#formations {
+  padding-top: 1.5em;
+  background-image: url(../img/annecy.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+div.textForma p {
+  text-align: justify;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 0.25em;
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  margin-top: 0.18em;
+  padding-bottom: 1em;
+}
+
+div.topCard.formation {
+  margin-top: 2.7em;
+}
+
+.topCard {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right: 1px solid #262626;
+  border-top: 1px solid #262626;
+  margin-top: 2.5em;
+  background-color: #262626;
+}
+
+.topCard h3 {
+  padding-top: 0.5em;
+}
+
+.cards {
+  margin-top: -0.5em;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 2px solid #262626;
+  border-right: 2px solid #262626;
+  border-bottom: 2px solid #262626;
+  margin-bottom: 2.7em;
+  background-color: white;
+  opacity: 0.8;
+}
+
+/* Début de la page expériences */
+
+#experiences {
+  background-image: url(../img/plagne.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/* Footer */
+div.footer p {
+  margin-top: 0.2em;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+  background-color: #262626;
+  height: 64px;
+  text-align: center;
+  position: fixed;
+}
+
+/* Début de la page Réalisation */
+
+#realisations {
+  background-image: url(../img/lindos.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#basketButton {
+  border: 1px solid orange;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+}
+
+#basketButton:hover {
+  color: grey;
+}
+
+div.center-block {
+  text-align: center;
+}
+
+div.modal-footer {
+  text-align: center;
+}
+
+.card-img-top {
+  height: 280px;
+  width: 280px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card-group {
+  text-align: center;
+  margin-top: 0.2em;
+  margin-bottom: 1em;
+}
+
+p.desc {
+  text-align: justify;
+}
+
+.card-group h3 {
+  color: #262626;
+}
+
+.card {
+  opacity: 0.7;
+}
+
+img {
+  height: 40px;
+}
+
+@media screen and (max-width: 360px) {
+  .hide {
+    display: none;
+  }
+
+  .table th {
+    font-size: 12px;
+  }
+
+  .table thead th {
+    font-size: 12px;
+  }
+}
+
+.table td .table th {
+  vertical-align: center;
+}
+
+div.basketTitle p {
+  text-align: center;
+  color: white;
+}
+
+/* Fenêtre modale */
+
+div.modal-content {
+  background-image: url(../img/temple.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: bold;
+}
+
+#buttonAdd {
+  height: 30px;
+  width: 30px;
+  background-color: #262626;
+  border: 1px solid #262626;
+  border-radius: 4px;
+  color: white;
+}
+
+#buttonLess {
+  height: 30px;
+  width: 30px;
+  background-color: #262626;
+  border: 1px solid #262626;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+#buttonRemove {
+  height: 30px;
+  width: 30px;
+  background-color: #262626;
+  border: 1px solid #262626;
+  border-radius: 4px;
+  color: white;
+}
+
+#commandeButton {
+  background-color: #262626;
+  border: 1px solid #262626;
+  border-radius: 4px;
+  color: white;
+}
+
+#removeProduct {
+  background-color: #262626;
+  border: 1px solid #262626;
+  border-radius: 4px;
+  color: white;
+}
+
+#ValidateButton {
+  background-color: #262626;
+  border: 1px solid #262626;
+  border-radius: 4px;
+  color: white;
+}
+
+#ValidateButton:hover {
+  background-color: orange;
+  color: #262626;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.table {
+  border-color: #262626;
+}
+
+/* Loisirs */
+
+#loisirs {
+  background-image: url(../img/cheval.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+div.topCard.loisir {
+  margin-top: 3.45em;
+}
+
+/* Contacts */
+
+#contacts {
+  background-image: url(../img/lindos2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+div.cards img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+
+.cards p a {
+  text-decoration: none;
+  color: black;
+}
+
+div.topCard.contact {
+  margin-top: 3.4em;
+}

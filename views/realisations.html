@@ -1,0 +1,74 @@
+<div id="realisations">
+  <header>
+    <button type="button" id="basketButton" class="btn grey center-block" data-toggle="modal" data-target="#exampleModal">Panier : {{total | number : 2}} € ({{count}})<span class="fas fa-shopping-basket"></span> </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Votre panier</h5><br>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!-- Tableau dans le modal -->
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="hide">Ref</th>
+                <th class="hide"></th>
+                <th>Article</th>
+                <th class="hide">Description</th>
+                <th>Prix</th>
+                <th>Quantité</th>
+                <th>Sous-total</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody> <!-- Div pour écrire -->
+              <tr ng-repeat="article in basket" id="align">
+                <td class="hide">{{article.ref}}</td>
+                <td class="hide"><img id="img" src="{{article.image}}"></td>
+                <td>{{article.name}}</td>
+                <td class="hide">{{article.desc}}</td>
+                <td>{{article.price | number:2}}</td>
+                <td><button ng-click="deleteQuantity($index)" type="button" id="buttonAdd">-</button>{{article.quantity}}<button ng-click="addQuantity($index)" type="button" id="buttonLess">+</button></td>
+                <td>{{article.subTotal | number:2 }} €</td>
+                <td><button ng-click="remove($index)" id="buttonRemove">X</button></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5>Total de votre panier : {{total | number:2}} €</h5>
+          <button id="commandeButton">Passer la commande</button>
+          <!-- Fin du tableau dans le modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="removeProduct" data-dismiss="modal">Continuer vos achats</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 offset-md-2 col-md-18 offset-lg-2 col-lg-8 basketTitle">
+        <h1>Panier e-commerce réalisé entièrement en AngularJS, testez le !</h1>
+        <p>ETC : 0x57F9622857e05e16B4dc5e3a7cC5597BE0Df434e</p>
+        <p>BTC : 3DtSjDWZtEy8YfB4DnYSLjeRAK4otyEN6x</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card-group col-12 col-md-6 col-lg-3" ng-repeat="example in examples">
+        <div class="card">
+          <img class="card-img-top" src="{{example.image}}" alt="{{example.name}}" />
+          <div class="card-body">
+            <h3>{{example.name}}</h3>
+            <p class="desc">{{example.desc}}</p>
+            <p>Prix : {{example.price | number : 2}} €/u</p>
+          </div>
+          <div class="card-footer"> <!--DÉBUT BOUTON "AJOUTER AU PANIER"-->
+            <input type="button" name="addBasket" value="Ajouter au panier" class="btn btn-primary center" id="ValidateButton" ng-click="addBasket($index)" /> <!-- ng-click est une directive qui dit à AngularJS que faire quand un élément HTML est cliqué -->
+          </div> <!-- FIN BOUTON "AJOUTER AU PANIER"-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

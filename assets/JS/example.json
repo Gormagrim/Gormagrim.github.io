@@ -1,0 +1,25 @@
+[
+{"name":"Bitcoin - BTC",
+"image":"assets/img/btc.png",
+"desc":"Le bitcoin est une monnaie virtuelle (ou crypto-monnaie) créée en 2009 par un ou plusieurs programmeurs informatiques utilisant le pseudonyme « Satoshi Nakamoto ».",
+"price":3357.00,
+"ref":"000.000.001"},
+
+{"name":"Ethereum - ETH",
+"image":"assets/img/eth.png",
+"desc":"L'Ethereum est un protocole d'échanges décentralisés permettant la création par les utilisateurs de contrats intelligents grâce à un langage Turing-complet. ",
+"price": 116.56,
+"ref":"000.000.002"},
+
+{"name":"Ripple - XRP",
+"image":"assets/img/xrp.png",
+"desc":"Ripple est un système de règlement brut en temps réel (RBTR), un marché des changes et un réseau d'envois de fonds par la société Ripple.",
+"price": 0.2744,
+"ref":"000.000.003"},
+
+{"name":"Ethereum Classic - ETC",
+"image":"assets/img/etc.png",
+"desc":"L'Ethereum Classic est une blockchain issue d'une scission de chaîne d'Ethereum. ... Ils n'ont donc pas voulu implementer le fork, menant ainsi à la scission de la chaine de blocs Ethereum.",
+"price": 3.70,
+"ref":"000.000.004"}
+]
