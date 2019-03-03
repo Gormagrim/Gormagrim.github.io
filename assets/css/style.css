@@ -258,12 +258,6 @@ div.basketTitle p {
 /* Fenêtre modale */
 
 div.modal-content {
-  background-image: url(../img/temple.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   font-family: bold;
 }
 
