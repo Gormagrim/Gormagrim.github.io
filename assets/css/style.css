@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-  background-color: #072247;
+  background-color: #0094b1;
 }
 
 .navbar-dark .navbar-toggler {
@@ -26,7 +26,7 @@ body {
   border-right: 1px solid grey;
   border-bottom: 1px solid grey;
   border-radius: 5px;
-  background-color: #072247;
+  background-color: #0094b1;
   color: grey;
   outline: 0;
 }
@@ -67,7 +67,7 @@ body {
 div .text p {
   text-align: justify;
   font-size: 20px;
-  color: #072247;
+  color: white;
   font-weight: bold;
 }
 
@@ -80,7 +80,7 @@ h2 {
   margin-top: 1em;
   margin-bottom: 3em;
   text-align: center;
-  color: #072247;
+  color: white;
 }
 
 /* Début de la page formations */
@@ -99,12 +99,12 @@ div.textForma p {
   text-align: justify;
   text-align: center;
   font-size: 20px;
-  color: #072247;
+  color: #0094b1;
   font-weight: bold;
 }
 
 h1 {
-  color: #072247;
+  color: white;
   text-align: center;
   margin-top: 0.25em;
   padding-bottom: 0.2em;
@@ -124,10 +124,10 @@ div.topCard.formation {
 .topCard {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  border-right: 1px solid #072247;
-  border-top: 1px solid #072247;
+  border-right: 1px solid #0094b1;
+  border-top: 1px solid #0094b1;
   margin-top: 2.5em;
-  background-color: #072247;
+  background-color: #0094b1;
 }
 
 .topCard h3 {
@@ -138,9 +138,9 @@ div.topCard.formation {
   margin-top: -0.5em;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  border-left: 2px solid #072247;
-  border-right: 2px solid #072247;
-  border-bottom: 2px solid #072247;
+  border-left: 2px solid #0094b1;
+  border-right: 2px solid #0094b1;
+  border-bottom: 2px solid #0094b1;
   margin-bottom: 2.7em;
   background-color: white;
   opacity: 0.8;
@@ -168,7 +168,7 @@ div.footer p {
 .footer {
   float: left;
   width: 100%;
-  background-color: #072247;
+  background-color: #0094b1;
   height: 64px;
   text-align: center;
   position: fixed;
@@ -222,7 +222,7 @@ p.desc {
 }
 
 .card-group h3 {
-  color: #072247;
+  color: #0094b1;
 }
 
 .card {
@@ -265,8 +265,8 @@ div.modal-content {
 #buttonAdd {
   height: 30px;
   width: 30px;
-  background-color: #072247;
-  border: 1px solid #072247;
+  background-color: #0094b1;
+  border: 1px solid #0094b1;
   border-radius: 4px;
   color: white;
 }
@@ -274,8 +274,8 @@ div.modal-content {
 #buttonLess {
   height: 30px;
   width: 30px;
-  background-color: #072247;
-  border: 1px solid #072247;
+  background-color: #0094b1;
+  border: 1px solid #0094b1;
   border-radius: 4px;
   color: white;
   text-align: center;
@@ -284,36 +284,36 @@ div.modal-content {
 #buttonRemove {
   height: 30px;
   width: 30px;
-  background-color: #072247;
-  border: 1px solid #072247;
+  background-color: #0094b1;
+  border: 1px solid #0094b1;
   border-radius: 4px;
   color: white;
 }
 
 #commandeButton {
-  background-color: #072247;
-  border: 1px solid #072247;
+  background-color: #0094b1;
+  border: 1px solid #0094b1;
   border-radius: 4px;
   color: white;
 }
 
 #removeProduct {
-  background-color: #072247;
-  border: 1px solid #072247;
+  background-color: #0094b1;
+  border: 1px solid #0094b1;
   border-radius: 4px;
   color: white;
 }
 
 #ValidateButton {
-  background-color: #072247;
-  border: 1px solid #072247;
+  background-color: #0094b1;
+  border: 1px solid #0094b1;
   border-radius: 4px;
   color: white;
 }
 
 #ValidateButton:hover {
   background-color: orange;
-  color: #262626;
+  color: #0094b1;
 }
 
 .btn {
@@ -322,7 +322,7 @@ div.modal-content {
 }
 
 .table {
-  border-color: #072247;
+  border-color: #0094b1;
 }
 
 /* Loisirs */
@@ -360,13 +360,9 @@ div.cards img {
 
 .cards p a {
   text-decoration: none;
-  color: #072247;
+  color: #0094b1;
 }
 
 div.topCard.contact {
   margin-top: 3.4em;
-}
-
-div.basketTitle p {
-  color: #072247;
 }
