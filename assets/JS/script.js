@@ -97,7 +97,4 @@ basketApp.controller('basketApp', function($scope, $http){
       $scope.count -= $scope.basket[id].quantity; // Je déduit la quantité de la ligne au compteur quand je la supprime.
       $scope.basket.splice(id, 1);
     };
-    //Francky
-    /* CATÉGORIES DANS LA NAVBAR */
-
   });
