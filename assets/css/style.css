@@ -234,16 +234,20 @@ img {
 }
 
 @media screen and (max-width: 360px) {
-  .hide {
+  .table thead tr th {
+    font-size: 12px;
+  }
+
+  .table tbody tr td {
+    font-size: 12px;
+  }
+
+  .table thead tr th.hide {
     display: none;
   }
 
-  .table th {
-    font-size: 12px;
-  }
-
-  .table thead th {
-    font-size: 12px;
+  .table tbody tr td.hide {
+    display: none;
   }
 }
 
