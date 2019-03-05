@@ -380,6 +380,14 @@ div.topCard.contact {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  width: 100%;
-  padding: 12.8em;
+  /* width: 100%;
+  padding: 12.8em; */
+}
+
+div.topCard.me {
+  margin-top: 15.8em;
+}
+
+div.cards.me {
+  margin-bottom: 16em;
 }
