@@ -3,6 +3,10 @@ var basketApp = angular.module('basketApp', ['ngRoute']);
 basketApp.config(['$routeProvider', function($routeProvider) {
   // Système de routage
   $routeProvider
+  .when('/me.html', {
+    templateUrl: 'views/me.html',
+    controller: 'basketApp'
+  })
   .when('/presentation.html', {
     templateUrl: 'views/presentation.html',
     controller: 'basketApp'

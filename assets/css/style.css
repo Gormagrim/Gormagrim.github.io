@@ -370,3 +370,16 @@ div.cards img {
 div.topCard.contact {
   margin-top: 3.4em;
 }
+
+/* Début de la section me */
+
+#me {
+  background-image: url(../img/cap.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  padding: 16.2em;
+}
