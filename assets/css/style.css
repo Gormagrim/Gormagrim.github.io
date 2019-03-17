@@ -1,6 +1,13 @@
 /* Début de modification de la navbar */
-body {
+.bg {
   font-family: 'Ubuntu', sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  z-index: 797;
 }
 
 .navbar {
@@ -44,7 +51,7 @@ body {
   margin-left: 1em;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 400px) {
   .navbar-dark .navbar-nav .nav-link {
     margin: 2px;
     display: inline-block;
@@ -56,12 +63,6 @@ body {
 /* Début de la page présentation */
 #presentation {
   font-family: 'Ubuntu', sans-serif;
-  background-image: url(../img/lanz.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 
 div .text p {
@@ -87,12 +88,6 @@ h2 {
 
 #formations {
   padding-top: 1.5em;
-  background-image: url(../img/temple.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 
 div.textForma p {
@@ -148,15 +143,6 @@ div.topCard.formation {
 
 /* Début de la page expériences */
 
-#experiences {
-  background-image: url(../img/plagne.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
 /* Footer */
 div.footer p {
   margin-top: 0.2em;
@@ -165,25 +151,20 @@ div.footer p {
   font-size: 15px;
 }
 
+.footerText {
+  margin: 0;
+}
+
 .footer {
   float: left;
   width: 100%;
   background-color: #0094b1;
-  height: 64px;
+  height: 60px;
   text-align: center;
-  position: fixed;
+  z-index: 999;
 }
 
 /* Début de la page Réalisation */
-
-#realisations {
-  background-image: url(../img/lindos.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
 
 #basketButton {
   border: 1px solid orange;
@@ -233,7 +214,7 @@ img {
   height: 40px;
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (max-width: 540px) {
   .table thead tr th {
     font-size: 12px;
   }
@@ -331,29 +312,11 @@ div.modal-content {
 
 /* Loisirs */
 
-#loisirs {
-  background-image: url(../img/cheval.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
 div.topCard.loisir {
   margin-top: 3.45em;
 }
 
 /* Contacts */
-
-#contacts {
-  background-image: url(../img/lindos2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
 
 div.cards img {
   text-align: center;
@@ -373,21 +336,40 @@ div.topCard.contact {
 
 /* Début de la section me */
 
-#me {
-  background-image: url(../img/cap.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  /* width: 100%;
-  padding: 12.8em; */
-}
-
 div.topCard.me {
   margin-top: 15.8em;
 }
 
 div.cards.me {
   margin-bottom: 16em;
+}
+
+@media screen and (max-width: 400px) {
+  #me {
+    background-image: url(../img/cap2.jpg);
+  }
+
+  #contacts {
+    background-image: url(../img/lindos2_2.JPG);
+  }
+
+  #loisirs {
+    background-image: url(../img/rhodos.jpg);
+  }
+
+  #realisations {
+    background-image: url(../img/lindos2_22.JPG);
+  }
+
+  #experiences {
+    background-image: url(../img/plagne2.JPG);
+  }
+
+  #formations {
+    background-image: url(../img/temple2.JPG);
+  }
+
+  #presentation {
+    background-image: url(../img/lanz2.JPG);
+  }
 }
