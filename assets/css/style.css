@@ -161,6 +161,7 @@ div.footer p {
   background-color: #0094b1;
   height: 60px;
   text-align: center;
+  position: absolute;
   z-index: 999;
 }
 
