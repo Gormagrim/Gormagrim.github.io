@@ -18,12 +18,12 @@
 }
 
 .navbar-dark .navbar-toggler {
-  color: white;
-  border-color: white;
+  color: #fff;
+  border-color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: white;
+  color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -42,7 +42,7 @@
 }
 
 .navbar-dark .navbar-brand {
-  color: white;
+  color: #fff;
 }
 
 .navbar-dark .navbar-brand:hover {
@@ -69,11 +69,11 @@
 }
 
 #presentation div .topCard {
-  margin-top: 9.62em;
+  margin-top: 10.56em;
 }
 
 #presentation div .textForma {
-  margin-bottom: 9.62em;
+  margin-bottom: 10.56em;
 }
 
 .firstPresentation {
@@ -94,7 +94,7 @@ div .text {
 }
 
 h3, h2, h1 {
-  color: white;
+  color: #fff;
   text-align: center;
   margin-top: 0.18em;
   padding-bottom: 1em;
@@ -116,6 +116,7 @@ div.cards.formation {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-right: 1px solid #2f4f4f;
+  border-left: 1px solid #2f4f4f;
   border-top: 1px solid #2f4f4f;
   margin-top: 2.5em;
   background-color: #2f4f4f;
@@ -133,7 +134,7 @@ div.cards.formation {
   border-right: 2px solid #2f4f4f;
   border-bottom: 2px solid #2f4f4f;
   margin-bottom: 1em;
-  background-color: white;
+  background-color: #fff;
   opacity: 0.8;
 }
 
@@ -151,7 +152,7 @@ div.cards.formation {
 div.footer p {
   margin-top: 0.2em;
   text-align: center;
-  color: white;
+  color: #fff;
   font-size: 0.9375em;
 }
 
@@ -176,7 +177,7 @@ div.footer p {
   border: 1px solid orange;
   border-radius: 0.3125em;
   background-color: orange;
-  color: white;
+  color: #fff;
 }
 
 #basketButton:hover {
@@ -249,7 +250,7 @@ img {
 
 div.basketTitle p {
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 /* Réalisation */
@@ -270,7 +271,7 @@ div.modal-content {
   background-color: #2f4f4f;
   border: 1px solid #2f4f4f;
   border-radius: 4px;
-  color: white;
+  color: #fff;
 }
 
 #buttonLess {
@@ -279,7 +280,7 @@ div.modal-content {
   background-color: #2f4f4f;
   border: 1px solid #2f4f4f;
   border-radius: 4px;
-  color: white;
+  color: #fff;
   text-align: center;
 }
 
@@ -289,28 +290,28 @@ div.modal-content {
   background-color: #2f4f4f;
   border: 1px solid #2f4f4f;
   border-radius: 4px;
-  color: white;
+  color: #fff;
 }
 
 #commandeButton {
   background-color: #2f4f4f;
   border: 1px solid #2f4f4f;
   border-radius: 4px;
-  color: white;
+  color: #fff;
 }
 
 #removeProduct {
   background-color: #2f4f4f;
   border: 1px solid #2f4f4f;
   border-radius: 4px;
-  color: white;
+  color: #fff;
 }
 
 #ValidateButton {
   background-color: #2f4f4f;
   border: 1px solid #2f4f4f;
   border-radius: 4px;
-  color: white;
+  color: #fff;
 }
 
 #ValidateButton:hover {
@@ -361,12 +362,20 @@ div.topCard.contact {
 
 /* Début de la section me */
 
+h4 {
+  padding-bottom: 1em;
+  text-align: center;
+  color: #2f4f4f;
+  font-size: 2em;
+  padding-top: 1em;
+}
+
 div.topCard.me {
-  margin-top: 15.8em;
+  margin-top: 13.875em;
 }
 
 div.cards.me {
-  margin-bottom: 15.95em;
+  margin-bottom: 13.875em;
 }
 
 @media screen and (max-width: 400px) {
