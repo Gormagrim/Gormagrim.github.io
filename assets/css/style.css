@@ -1,5 +1,6 @@
 /* Début de modification de la navbar */
 .bg {
+  background-image: url(../img/lindos2.jpg);
   font-family: 'Ubuntu', sans-serif;
   background-repeat: no-repeat;
   background-position: center;
