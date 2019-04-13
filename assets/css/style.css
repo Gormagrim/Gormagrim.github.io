@@ -172,6 +172,10 @@ div.footer p {
   z-index: 999;
 }
 
+.footerFirst {
+  margin-top: 51.4rem;
+}
+
 /* Début de la page Réalisation */
 
 #basketButton {
